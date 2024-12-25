@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Control de Asistencia | Login</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../public/css/font-awesome.css">
+    <link rel="stylesheet" href="../public/css/AdminLTE.min.css">
+    <link rel="shortcut icon" href="../public/img/favicon.ico">
+    <style>
+        body {
+            background: linear-gradient(135deg, #00b09b, #96c93d);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Poppins', sans-serif;
+            padding: 20px;
+        }
+
+        .login-container {
+            display: flex;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            width: 900px;
+            max-width: 100%;
+            backdrop-filter: blur(10px);
+        }
+
+        .login-banner {
+            background: linear-gradient(45deg, #00b09b, #96c93d);
+            padding: 40px;
+            color: white;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .login-banner::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('../files/negocio/images.png') center/contain no-repeat;
+            opacity: 0.1;
+            animation: pulse 4s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .banner-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .banner-content h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            font-weight: 600;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .banner-content p {
+            font-size: 1.1em;
+            opacity: 0.9;
+            line-height: 1.6;
+            margin-bottom: 0;
+        }
+
+        .login-form {
+            flex: 1;
+            padding: 40px;
+            background: white;
+        }
+
+        .login-logo {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .login-logo img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 15px;
+            border-radius: 50%;
+            padding: 5px;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+
+        .login-logo h1 {
+            color: #2c3e50;
+            font-size: 24px;
+            font-weight: 600;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .login-box-msg {
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .form-group {
+            position: relative;
+            margin-bottom: 25px;
+        }
+
+        .form-control {
+            height: 50px;
+            padding-left: 45px;
+            border-radius: 10px;
+            border: 2px solid #e9ecef;
+            font-size: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .form-control:focus {
+            border-color: #00b09b;
+            box-shadow: 0 0 0 0.2rem rgba(0, 176, 155, 0.25);
+        }
+
+        .form-group i {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #6c757d;
+            font-size: 18px;
+            transition: all 0.3s ease;
+        }
+
+        .form-control:focus + i {
+            color: #00b09b;
+        }
+
+        .btn-success {
+            background: linear-gradient(135deg, #00b09b, #96c93d);
+            border: none;
+            height: 50px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 15px rgba(0, 176, 155, 0.3);
+            transition: all 0.3s ease;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .btn-success:hover {
+            background: linear-gradient(135deg, #96c93d, #00b09b);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 176, 155, 0.4);
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            color: #6c757d;
+            text-decoration: none;
+            font-size: 14px;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .back-link i {
+            margin-right: 5px;
+        }
+
+        .back-link:hover {
+            color: #00b09b;
+            text-decoration: none;
+            transform: translateX(-5px);
+        }
+
+        @media (max-width: 768px) {
+            .login-banner {
+                display: none;
+            }
+            
+            .login-container {
+                width: 100%;
+                max-width: 400px;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animated {
+            animation: fadeIn 0.5s ease-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container animated">
+        <div class="login-banner">
+            <div class="banner-content">
+                <h2>Bienvenido</h2>
+                <p>Sistema de Control de Asistencia<br>Gestiona la asistencia de tu personal de manera eficiente</p>
+            </div>
+        </div>
+        <div class="login-form">
+            <div class="login-logo">
+                <img src="../files/negocio/images.png" alt="Logo">
+                <h1>Control de Asistencia</h1>
+            </div>
+            <p class="login-box-msg">Ingrese sus credenciales de acceso</p>
+            <form method="post" id="frmAcceso" action="login.php">
+                <div class="form-group">
+                    <input type="text" id="logina" name="logina" class="form-control" placeholder="Usuario" autocomplete="off">
+                    <i class="fa fa-user"></i>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="clavea" name="clavea" class="form-control" placeholder="Contraseña">
+                    <i class="fa fa-lock"></i>
+                </div>
+                <button type="submit" class="btn btn-success">
+                    <i class="fa fa-sign-in"></i> Ingresar al Sistema
+                </button>
+            </form>
+            <a href="../../vistas/registro_movil.php" class="back-link">
+                <i class="fa fa-arrow-left"></i> Volver al registro
+            </a>
+        </div>
+    </div>
+
+    <script src="../public/js/jquery-3.1.1.min.js"></script>
+    <script src="../public/js/bootstrap.min.js"></script>
+    <script src="../public/js/bootbox.min.js"></script>
+    <script src="scripts/login.js"></script>
+</body>
+</html> 

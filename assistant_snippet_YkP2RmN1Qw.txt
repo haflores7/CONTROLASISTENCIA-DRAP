@@ -1,0 +1,53 @@
+/* Estilos para el modal de éxito */
+#successModal .modal-content {
+    background: white;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+#successModal .modal-body {
+    padding: 2rem;
+}
+
+.simple-success-circle {
+    width: 120px;
+    height: 120px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.white-circle {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.success-text {
+    color: #333;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}
+
+#successModal .modal-dialog {
+    max-width: 400px;
+}
+
+/* Animación de entrada */
+.modal.fade .modal-dialog {
+    transform: scale(0.7);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.modal.show .modal-dialog {
+    transform: scale(1);
+    opacity: 1;
+} 

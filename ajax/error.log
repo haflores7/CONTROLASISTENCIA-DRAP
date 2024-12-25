@@ -1,0 +1,122 @@
+[19-Dec-2024 01:39:33 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 01:39:33 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 01:39:33 Europe/Berlin] Persona encontrada: {"idusuario":"1","nombre":"admin","apellidos":"compartiendocodigos","login":"admin","iddepartamento":"1","idtipousuario":"1","email":"info@compartiendocodigos.com","password":"8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918","imagen":"default.jpg","estado":"1","fechacreado":"2020-01-18 00:00:00","usuariocreado":"admin","codigo_persona":"444","idmensaje":"1","nombre_departamento":"administrador"}
+[19-Dec-2024 01:39:33 Europe/Berlin] Total de registros encontrados: 27
+[19-Dec-2024 01:39:48 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 01:39:48 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 01:39:48 Europe/Berlin] Persona encontrada: {"idusuario":"1","nombre":"admin","apellidos":"compartiendocodigos","login":"admin","iddepartamento":"1","idtipousuario":"1","email":"info@compartiendocodigos.com","password":"8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918","imagen":"default.jpg","estado":"1","fechacreado":"2020-01-18 00:00:00","usuariocreado":"admin","codigo_persona":"444","idmensaje":"1","nombre_departamento":"administrador"}
+[19-Dec-2024 01:39:48 Europe/Berlin] Total de registros encontrados: 28
+[19-Dec-2024 01:42:06 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 01:42:06 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 01:42:06 Europe/Berlin] Persona encontrada: {"idusuario":"1","nombre":"admin","apellidos":"compartiendocodigos","login":"admin","iddepartamento":"1","idtipousuario":"1","email":"info@compartiendocodigos.com","password":"8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918","imagen":"default.jpg","estado":"1","fechacreado":"2020-01-18 00:00:00","usuariocreado":"admin","codigo_persona":"444","idmensaje":"1","nombre_departamento":"administrador"}
+[19-Dec-2024 01:42:06 Europe/Berlin] Total de registros encontrados: 1
+[19-Dec-2024 01:42:23 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 01:42:23 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 01:42:23 Europe/Berlin] Persona encontrada: {"idusuario":"1","nombre":"admin","apellidos":"compartiendocodigos","login":"admin","iddepartamento":"1","idtipousuario":"1","email":"info@compartiendocodigos.com","password":"8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918","imagen":"default.jpg","estado":"1","fechacreado":"2020-01-18 00:00:00","usuariocreado":"admin","codigo_persona":"444","idmensaje":"1","nombre_departamento":"administrador"}
+[19-Dec-2024 01:42:23 Europe/Berlin] Total de registros encontrados: 1
+[19-Dec-2024 01:42:23 Europe/Berlin] Error en asistencia.php: Ya se registró una salida hoy
+[19-Dec-2024 01:42:23 Europe/Berlin] Trace: #0 {main}
+[19-Dec-2024 01:51:20 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 01:51:20 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 01:51:56 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 01:51:56 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 01:52:45 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 01:52:45 Europe/Berlin] Código de persona: 789
+[19-Dec-2024 01:52:57 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 01:52:57 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 01:53:29 Europe/Berlin] Operación solicitada: buscar_historial
+[19-Dec-2024 01:53:29 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 01:53:29 Europe/Berlin] Error en asistencia.php: Operación no válida: buscar_historial
+[19-Dec-2024 01:53:29 Europe/Berlin] Trace: #0 {main}
+[19-Dec-2024 01:58:12 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 01:58:12 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 01:58:31 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 01:58:31 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 01:58:41 Europe/Berlin] Operación solicitada: buscar_historial
+[19-Dec-2024 01:58:41 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 02:04:57 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 02:04:57 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 02:05:32 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 02:05:32 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 02:07:10 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 02:07:10 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 02:12:30 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 02:12:30 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 02:13:12 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 02:13:12 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 02:13:31 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 02:13:31 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 02:14:02 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 02:14:02 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 02:18:34 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 02:18:34 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 02:18:55 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 02:18:55 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 02:19:26 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 02:19:26 Europe/Berlin] Código de persona: 789
+[19-Dec-2024 02:20:37 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 02:20:37 Europe/Berlin] Código de persona: 789
+[19-Dec-2024 02:21:46 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 02:21:46 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 02:23:30 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 02:23:30 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 02:23:43 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 02:23:43 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 02:23:55 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 02:23:55 Europe/Berlin] Código de persona: 789
+[19-Dec-2024 02:24:09 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 02:24:09 Europe/Berlin] Código de persona: 789
+[19-Dec-2024 02:24:19 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 02:24:19 Europe/Berlin] Código de persona: 789
+[19-Dec-2024 02:30:33 Europe/Berlin] Operación solicitada: buscar_historial
+[19-Dec-2024 02:30:33 Europe/Berlin] Código de persona: 789
+[19-Dec-2024 02:31:02 Europe/Berlin] Operación solicitada: buscar_historial
+[19-Dec-2024 02:31:02 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 02:43:55 Europe/Berlin] Operación solicitada: buscar_historial
+[19-Dec-2024 02:43:55 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 10:30:41 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 10:30:41 Europe/Berlin] Código de persona: 4444
+[19-Dec-2024 10:30:41 Europe/Berlin] Error en asistencia.php: Código de persona no válido
+[19-Dec-2024 10:30:41 Europe/Berlin] Trace: #0 {main}
+[19-Dec-2024 10:30:44 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 10:30:44 Europe/Berlin] Código de persona: 4444
+[19-Dec-2024 10:30:44 Europe/Berlin] Error en asistencia.php: Código de persona no válido
+[19-Dec-2024 10:30:44 Europe/Berlin] Trace: #0 {main}
+[19-Dec-2024 10:31:10 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 10:31:10 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 10:31:11 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 10:31:11 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 10:31:11 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 10:31:11 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 10:31:14 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 10:31:14 Europe/Berlin] Código de persona: 789
+[19-Dec-2024 10:31:15 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 10:31:15 Europe/Berlin] Código de persona: 789
+[19-Dec-2024 10:31:15 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 10:31:15 Europe/Berlin] Código de persona: 789
+[19-Dec-2024 10:36:34 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 10:36:34 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 10:36:47 Europe/Berlin] Operación solicitada: buscar_historial
+[19-Dec-2024 10:36:47 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 10:47:39 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 10:47:39 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 10:47:49 Europe/Berlin] Operación solicitada: buscar_historial
+[19-Dec-2024 10:47:49 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 10:49:58 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 10:49:58 Europe/Berlin] Código de persona: 789
+[19-Dec-2024 10:50:09 Europe/Berlin] Operación solicitada: buscar_historial
+[19-Dec-2024 10:50:09 Europe/Berlin] Código de persona: 789
+[19-Dec-2024 11:09:37 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 11:09:37 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 11:22:36 Europe/Berlin] Operación solicitada: buscar_historial
+[19-Dec-2024 11:22:36 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 11:57:46 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 11:57:46 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 11:58:12 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 11:58:12 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 11:59:34 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 11:59:34 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 11:59:43 Europe/Berlin] Operación solicitada: buscar_historial
+[19-Dec-2024 11:59:43 Europe/Berlin] Código de persona: 444
+[19-Dec-2024 12:54:19 Europe/Berlin] Operación solicitada: registrar_asistencia
+[19-Dec-2024 12:54:19 Europe/Berlin] Código de persona: 444
